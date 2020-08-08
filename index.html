@@ -1,0 +1,117 @@
+
+        
+
+<!doctype html>
+<!--[if lte IE 9]><html class="lte-ie9" itemscope itemtype="http://schema.org/Movie"><![endif]-->
+<!--[if gt IE 9]><!--><html itemscope itemtype="http://schema.org/Movie"><!--<![endif]-->
+
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta itemprop="name" content="Official" />
+        <title>church</title>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+        
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+
+
+        <link rel="stylesheet" href="https://use.typekit.net/okg2dxl.css">
+
+        
+
+        <script>
+            var env = 'dev'; // set to 'prod' to turn off console logs
+
+            function parsePath(){
+                'use strict';
+
+                var base = window.location.protocol + '//' + window.location.host,
+                    path = window.location.pathname;
+
+                if(path.indexOf('.') >= 0) path = path.substring(0, path.lastIndexOf('/')+1);
+                else if (path.indexOf('?') >= 0) path = path.substring(0, path.lastIndexOf('?'));
+
+                return base + path;
+            }
+
+            window.oblio = window.oblio || {};
+            oblio.settings = oblio.settings || {};
+            oblio.settings.basePath = parsePath();
+            oblio.settings.baseUrl = '';
+            oblio.settings.assetsUrl = '';
+            oblio.settings.jsUrl = 'js/';
+            oblio.settings.deeplink = '';
+            oblio.settings.jsonFileName = 'en.json';
+        </script>
+        
+        
+        <link rel="stylesheet" href="css/main.css">
+        
+    
+    </head>
+
+    <body class="dev">
+
+        
+
+        <div id="shell" class="absFull epk"></div>
+
+        <div id="loader_wrapper" style="opacity: 0; font-size: 10px">
+            <svg id="knife_icon" display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100">
+            <g id="Knife_-_Harlan">
+                <g>
+                    
+                   
+                </g>
+            </g>
+            </svg>
+
+            <svg id="loader_tt" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 5.19">
+			<g>
+			</g></svg>
+            <h2 id="loader_loading"></h2>
+            <h2 id="loader_close"></h2>
+            <h2 id="loader_releasedate">подождите</h2>
+            <h2 id="loader_fresh"></h2>
+            <ul id="loader_quotes">
+                <li>
+                    <p></p>
+                    <p></p> 
+                </li>
+                
+                <li>
+                    <p></p>
+                    <p></p>
+                </li>
+
+            </ul>
+            <h2 id="loaderText">0</h2>
+        </div>
+
+        <!--[if lte IE 9]>
+            <script type="text/javascript" src="js/templates.js"></script>
+            <script type="text/javascript" src="js/fallback.js"></script>
+        <![endif]-->
+        <!--[if gt IE 9]>-->
+        <script type="text/javascript" src="js/browsercheck.js"></script>
+
+        <script type="text/javascript">
+            var quotes = document.querySelectorAll('#loader_quotes li');
+            var i = Math.floor(Math.random() * (quotes.length - 1));
+            quotes[i].style.opacity = 1;
+            var height = [].slice.call(quotes).reduce((acc, quote) => {
+                acc = Math.max(acc, quote.offsetHeight);
+                quote.style.height = '100%';
+                return acc;
+            }, 0);
+            document.getElementById('loader_quotes').style.height = height + 'px';
+            document.getElementById('loader_wrapper').style.opacity = 1;
+        </script>
+        <!--<![endif]-->
+        <!--<a style="color:red; position: fixed; font-size: 3em; padding: 1em; top: 100px; left: 0; z-index: 100;" href="assets/ar/scene_scaled2.usdz" rel="ar"><img class="image-model" src="https://developer.apple.com/augmented-reality/quick-look/models/biplane/biplane_2x.jpg" srcset="/augmented-reality/quick-look/models/biplane/biplane_2x.jpg" alt="" data-hires-status="pending"></a>-->
+        <div id="mobile_gradient"></div>
+    </body>
+</html>

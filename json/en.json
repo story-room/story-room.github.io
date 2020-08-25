@@ -2461,7 +2461,7 @@
                                                     Наружное наблюдение и слежка</br>
                                                     Информация о передвижениях </br>
                                                     Проверка алиби </br>
-						    История болезни (только гос. больницы)			
+						    						История болезни			
 
                                                     </br></br>
 
@@ -2900,7 +2900,7 @@
                                 "visible": true,
                                 "quote": {
                                     "visible": true,
-                                    "text": "Продается массив данных за 500 000 рублей",
+                                    "text": "100 000 рублей",
                                     "css": [
                                         {
                                             "property": "font-size",
@@ -2993,7 +2993,7 @@
                                 "visible": true,
                                 "quote": {
                                     "visible": true,
-                                    "text": "Продается массив данных за 500 000 рублей",
+                                    "text": "300 000 рублей",
                                     "css": [
                                         {
                                             "property": "font-size",
@@ -3084,7 +3084,7 @@
                                 "visible": true,
                                 "quote": {
                                     "visible": true,
-                                    "text": "Продается массив данных за 500 000 рублей",
+                                    "text": "200 000 рублей",
                                     "css": [
                                         {
                                             "property": "font-size",
@@ -3205,7 +3205,7 @@
                                 "visible": true,
                                 "quote": {
                                     "visible": true,
-                                    "text": "продается массив данных за 1 000 000 рублей",
+                                    "text": "100 000 рублей",
                                     "css": [
                                         {
                                             "property": "font-size",
@@ -3286,7 +3286,7 @@
                                 "visible": true,
                                 "quote": {
                                     "visible": true,
-                                    "text": "продается массив данных за 1 000 000 рублей",
+                                    "text": "200 000 рублей",
                                     "css": [
                                         {
                                             "property": "font-size",
@@ -3467,7 +3467,7 @@
                                 "visible": true,
                                 "quote": {
                                     "visible": true,
-                                    "text": "Продается массив данных за 1 000 000 рублей",
+                                    "text": "200 000 рублей",
                                     "css": [
                                         {
                                             "property": "font-size",
@@ -3559,7 +3559,7 @@
                                 "visible": true,
                                 "quote": {
                                     "visible": true,
-                                    "text": "Продается массив данных за 1 000 000 рублей",
+                                    "text": "100 000 рублей",
                                     "css": [
                                         {
                                             "property": "font-size",
@@ -3646,7 +3646,7 @@
                                 "visible": true,
                                 "quote": {
                                     "visible": true,
-                                    "text": "Продается массив данных за 500 000 рублей",
+                                    "text": "200 000 рублей",
                                     "css": [
                                         {
                                             "property": "font-size",
@@ -3721,7 +3721,7 @@
                                 "visible": true,
                                 "quote": {
                                     "visible": true,
-                                    "text": "Продается массив данных за 1 000 000 рублей",
+                                    "text": "100 000 рублей",
                                     "css": [
                                         {
                                             "property": "font-size",
